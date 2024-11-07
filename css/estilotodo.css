@@ -1,0 +1,118 @@
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: beige;
+}
+
+nav ul li {
+    color: brown;
+}
+
+h3 {
+    color: beige;
+}
+
+div label {
+    color: blueviolet;
+}
+
+main section h2 {
+    color: green;
+
+}
+
+.index {
+    color: green;
+}
+
+.mi-caja-index {
+    background-color: gray;
+    width: 140px;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.mi-caja-index2 {
+    background-color: gray;
+    width: 175px;
+    height: 150px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 5px;
+
+    padding: 5px;
+
+}
+/*
+.caja-citas1{
+ 
+    background-color: gray;
+    
+    width: 130px;
+    height: 100px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.span-uno-home{
+    color: green;
+}
+.span-uno-citas{
+    color: green;
+}
+*/
+
+.grid-container {
+    display: flex;
+    justify-content: space-between; 
+}
+.columna-izquierda {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.columna-derecha {
+    width: 200px; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+}
+
+.home-completo {
+    text-align: center; 
+    font-size: 1.5em; 
+    margin-top: 20px; 
+}
+.mensajesfondo{
+    background-color: gray;
+}
+.caja-viaje-mensajes{
+    background-color: rgb(255, 255, 255);
+    width: 175px;
+    height: 150px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 5px;
+
+    padding: 5px;
+}
+.conversaciones{
+color: yellowgreen;
+}
+
+.columna-derecha-citas {
+    width: 200px; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+}
+.columna-izquierda-citas {
+    width: 200px; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+}
+.grid-container-citas {
+    display: flex;
+    justify-content: space-between; 
+}
