@@ -112,7 +112,7 @@ color: yellowgreen;
 .columna-izquierda-citas {
     width: 200px; 
     padding: 20px; 
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0ec; 
 }
 .grid-container-citas {
     display: flex;
