@@ -72,7 +72,7 @@ main section h2 {
 .columna-izquierda {
     flex: 1; 
     padding: 20px; 
-    background-color: antiquewhite;
+    background-color: beige;
 }
 
 .columna-derecha {
