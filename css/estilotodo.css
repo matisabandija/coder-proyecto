@@ -72,6 +72,7 @@ main section h2 {
 .columna-izquierda {
     flex: 1; 
     padding: 20px; 
+    background-color: antiquewhite;
 }
 
 .columna-derecha {
@@ -101,6 +102,7 @@ main section h2 {
 .conversaciones{
 color: yellowgreen;
 }
+
 
 .columna-derecha-citas {
     width: 200px; 
