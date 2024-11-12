@@ -4,7 +4,7 @@ h1 {
 }
 
 h2 {
-    color: beige;
+    color: rgb(0, 0, 0);
 }
 
 nav ul li {
@@ -12,7 +12,7 @@ nav ul li {
 }
 
 h3 {
-    color: beige;
+    color: rgb(0, 0, 0);
 }
 
 div label {
@@ -117,4 +117,8 @@ color: yellowgreen;
 .grid-container-citas {
     display: flex;
     justify-content: space-between; 
+}
+
+.perfil{
+    color: black;
 }
