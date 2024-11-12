@@ -11,11 +11,15 @@
 <body>
     <header>
 
-        <h1 class="perfil">perfil</h1>
+        <div>
+            <label for="usuario">nombre de usuario</label>
+            <input type="text" id="usuario">
+        </div>
 
     </header>
+    <div class="mi-caja-adicionales"opciones>
     <nav>
-        <img src="../img/perfil.jpg" alt="">
+        
         <ul>
             <li><a href="./citas.html">citas</a></li>
             <li><a href="./reddelrio.html">seguidores</a></li>
@@ -24,32 +28,33 @@
             <li><a href="./mensajes.html">mensajes</a></li>
         </ul>
     </nav>
-
+</div>
     <main>
         <section>
 
-            <h2>Aqui podras ver tu informacion personal</h2>
+            <div class="caja-adicionales-perfil">
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <label for="foto">Sube una foto:</label>
+                    <input type="file" id="foto" name="foto" accept="image/*">
+                    <button type="submit">Subir</button>
+                  </form>
+            </div>
 
             <article>
-                <h3>inicia sesion</h3>
+                
                 <form action="">
 
 
-                    <div>
-                        <label for="usuario">nombre de usuario</label>
-                        <input type="text" id="usuario">
-                    </div>
+                   
+
 
                     <div>
-                        <label for="contraseña">contra</label>
-                        <input type="password" id="contraseña">
+                        <label class="sobre-vos">sobre vos</label>
+                        <textarea class="tu-info" name="" id="tu info"></textarea>
                     </div>
-
-                    <div>
-                        <label for="tu info">sobre vos</label>
-                        <textarea name="" id="tu info"></textarea>
-                    </div>
-
+<div>
+    <img src="../img/perfil.jpg" alt="">
+</div>
                 </form>
 
 
