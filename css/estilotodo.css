@@ -122,3 +122,28 @@ color: yellowgreen;
 .perfil{
     color: rgb(0, 0, 0);
 }
+.mi-caja-adicionales{
+    background-color: beige;
+    width: 175px;
+    height: 150px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 5px;
+
+    padding: 5px;
+}
+.tu-info{
+    width: 400px;
+    height: 100px;
+}
+
+.caja-adicionales-perfil{
+    background-color: beige;
+    width: 350px;
+    height: 200px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 5px;
+
+    padding: 5px;
+}
