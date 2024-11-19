@@ -46,7 +46,7 @@ main section h2 {
 }
 /*
 .caja-citas1{
- 
+
     background-color: gray;
     
     width: 130px;
@@ -108,8 +108,8 @@ color: yellowgreen;
     background-color: #f0f0f0; 
 }
 .columna-izquierda-citas{
-    width: 200px; 
-    padding: 20px; 
+    width: 100%; 
+    padding: 2%; 
     background-color: #f0f0f0ec; 
 }
 .grid-container-citas{

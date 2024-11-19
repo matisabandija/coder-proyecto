@@ -6,73 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/estilocitas.css">
+    <style>
+        .grid-container {
+            display: flex; /* Usamos flexbox para alinear las columnas */
+        }
+
+        .columna-izquierda-citas {
+            flex: 1; /* Ocupa el 1/3 del espacio */
+            padding: 20px; /* Espaciado interno */
+        }
+
+        .columna-derecha-citas {
+            flex: 2; /* Ocupa el 2/3 del espacio */
+            padding: 20px; /* Espaciado interno */
+        }
+
+        .columna-divisora {
+            width: 2px; /* Ancho de la línea divisoria */
+            background-color: #000; /* Color de la línea divisoria */
+        }
+    </style>
 </head>
 
 <body>
     <div class="grid-container">
         <div class="columna-izquierda-citas">
-    <header>
-        <h1>citas</h1>
-    </header>
+            <header>
+                <h1>citas</h1>
+            </header>
 
+            <nav>
+                <div class="caja-citas1">
+                    <ul>
+                        <li><a href="./reddelrio.html">citas</a></li>
+                        <li><a href="./adicionales.html">perfil</a></li>
+                        <li><a href="../index.html">home</a></li>
+                        <li><a href="./mensajes.html">mensajes</a></li>
+                    </ul>
+                </div>
+                <img src="../img/cita.jpg" width="200" height="100" alt="">
+            </nav>
+        </div>
 
+        <!-- Columna divisora -->
+        <div class="columna-divisora"></div>
 
-
-    <nav>
-
-
-
-
-        <img src="../img/cita.jpg" width="500" height="300" alt="">
-
-        <div class="caja-citas1">
-            <ul>
-                <li><a href="./reddelrio.html">citas</a>
-                <li><a href="./adicionales.html">perfil</a></li>
-                <li><a href="../index.html">home</a></li>
-                <li><a href="./mensajes.html">mensajes</a></li>
-                <link rel="stylesheet" href="../css/estilotodo.css">
-
-            </ul>
+        <div class="columna-derecha-citas">
+            <span class="span-uno-citas">dirigete a diferentes opciones</span>
+            <main>
+                <section>
+                    <h2>estas soltera/o/e? con esto ya no!</h2>
+                    <article>
+                        <div>
+                            <form action="">
+                                <label for="opciones">sexualidad</label>
+                                <select name="" id="opciones">
+                                    <option value="">hetero</option>
+                                    <option value="">homo</option>
+                                    <option value="">pansexual</option>
+                                </select>
+                            </form>
+                        </div>
+                    </article>
+                </section>
+            </main>
         </div>
     </div>
-
-
-
-
-        
-    </nav>
-    <div class="columna-derecha-citas">
-    <span class="span-uno-citas">dirigete a diferentes opciones</span>
-    <main>
-        <section>
-
-            <h2>estas soltera/o/e? con esto ya no!</h2>
-
-            <article>
-
-                
-                <div>
-                    <form action="">
-                        <label for="opciones">sexualidad</label>
-                        <select name="" id="opciones">
-                            <option value="">hetero</option>
-                            <option value="">homo</option>
-                            <option value="">pansexual</option>
-                    </form>
-                </div>
-
-
-            </article>
-
-
-        </section>
-
-    </main>
-
-</div>
-</div>
 </body>
-
 
 </html>
