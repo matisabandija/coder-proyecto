@@ -1,68 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Perfil de Instagram</title>
     <link rel="stylesheet" href="../css/estilotodo.css">
 </head>
-
-<body>
-    <header>
-
-        <div>
-            <label for="usuario">nombre de usuario</label>
-            <input type="text" id="usuario">
-        </div>
-
+<body class="body-adicionales">
+    <header class="header-adicionales">
+        <h1>Perfil de Instagram</h1>
     </header>
-    <div class="mi-caja-adicionales"opciones>
-    <nav>
-        
-        <ul>
-            <li><a href="./citas.html">citas</a></li>
-            <li><a href="./reddelrio.html">seguidores</a></li>
-            <li><a href="../index.html">home</a></li>
-            <li><a href="./contacto.html">contacto</a></li>
-            <li><a href="./mensajes.html">mensajes</a></li>
-        </ul>
-    </nav>
-</div>
-    <main>
-        <section>
-
-            <div class="caja-adicionales-perfil">
-                <form action="/upload" method="post" enctype="multipart/form-data">
-                    <label for="foto">Sube una foto:</label>
-                    <input type="file" id="foto" name="foto" accept="image/*">
-                    <button type="submit">Subir</button>
-                  </form>
+    <div class="container">
+        <div class="profile-header">
+            <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-pic">
+            <div class="profile-info">
+                <h2>Nombre del Usuario</h2>
+                <p>@nombredeusuario</p>
+                <p>Seguidores: 1500 | Siguiendo: 300</p>
+                <p>Biografía: Esta es una breve descripción sobre el usuario. #hashtag</p>
             </div>
-
-            <article>
-                
-                <form action="">
-
-
-                   
-
-
-                    <div>
-                        <label class="sobre-vos">sobre vos</label>
-                        <textarea class="tu-info" name="" id="tu info"></textarea>
-                    </div>
-<div>
-    <img src="../img/perfil.jpg" width="200" height="200" alt=""></div>
-                </form>
-
-
-
-                </form>
-            </article>
-        </section>
-
-    </main>
+        </div>
+        <div class="posts">
+            <h3>Publicaciones</h3>
+            <div class="grid">
+                <div class="post"><img src="https://via.placeholder.com/200" alt="Publicación 1"></div>
+                <div class="post"><img src="https://via.placeholder.com/200" alt="Publicación 2"></div>
+                <div class="post"><img src="https://via.placeholder.com/200" alt="Publicación 3"></div>
+                <div class="post"><img src="https://via.placeholder.com/200" alt="Publicación 4"></div>
+                <div class="post"><img src="https://via.placeholder.com/200" alt="Publicación 5"></div>
+                <div class="post"><img src="https://via.placeholder.com/200" alt="Publicación 6"></div>
+            </div>
+        </div>
+    </div>
+   
 </body>
-
 </html>
