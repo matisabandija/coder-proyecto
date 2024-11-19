@@ -44,24 +44,7 @@ main section h2 {
     padding: 5px;
 
 }
-/*
-.caja-citas1{
 
-    background-color: gray;
-    
-    width: 130px;
-    height: 100px;
-    border-style: double;
-    border-width: 5px;
-    border-radius: 5px;
-}
-.span-uno-home{
-    color: green;
-}
-.span-uno-citas{
-    color: green;
-}
-*/
 
 .grid-container {
     display: flex;
@@ -124,4 +107,55 @@ color: yellowgreen;
     background-color: #333;
     width: 100%;
     margin: 20px auto;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; 
+    color: white; 
+    text-align: center;
+    padding: 20px;
+}
+
+.columna-izquierda-citas {
+    background-color: #4CAF50; 
+    padding: 10px;
+}
+
+nav .caja-citas1 ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+nav .caja-citas1 ul li {
+    margin: 10px 0; 
+}
+
+nav .caja-citas1 ul li a {
+    color: white; 
+    text-decoration: none; 
+}
+
+nav .caja-citas1 ul li a:hover {
+    text-decoration: underline; 
+}
+
+.container {
+    width: 80%; 
+    margin: auto;
+    overflow: hidden; 
+}
+
+.form-section {
+
+
+    background: white; 
 }
