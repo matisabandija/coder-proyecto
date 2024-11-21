@@ -1,80 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>redsocial</title>
-
-    <link rel="stylesheet" href="./css/estilotodo.css">
+    <title>MiRedSocial - Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="grid-container">
-        <div class="columna-izquierda">
-            <main class="grid-home">
-                <div class="mi-caja-index">
-                    Red Del Rio
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./pages/citas.html">citas</a></li>
+                <li><a href="./pages/mensajes.html">mensajes</a></li>
+                <li><a href="./pages/contacto.html">contacto</a></li>
+                <li><a href="./pages/adicionales.html">perfil</a></li>
+                <li><a href="./pages/reddelrio.html">seguidores</a></li>
+            </ul>
+        </nav>
+
+        <div class="logo">MiRedSocial</div>
+        <nav>
+            <input type="text" placeholder="Buscar...">
+            <a href="#">Inicio</a>
+            <a href="#">Perfil</a>
+            <a href="#">Mensajes</a>
+            <a href="#">Notificaciones</a>
+        </nav>
+    </header>
+    <main>
+        <section class="posts">
+            <article class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/40" alt="Usuario" class="avatar">
+                    <span class="username">Usuario1</span>
                 </div>
-                <header>
-                    <h1>Red del rio</h1>
-                    <div class="mi-caja-index2">
-                        
-                        <nav>
-                            <ul>
-                                <li><a href="./pages/citas.html">citas</a></li>
-                                <li><a href="./pages/mensajes.html">mensajes</a></li>
-                                <li><a href="./pages/contacto.html">contacto</a></li>
-                                <li><a href="./pages/adicionales.html">perfil</a></li>
-                                <li><a href="./pages/reddelrio.html">seguidores</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <span class="span-uno-home">dirigete a diferentes opciones</span>
-                </header>
-                <hr class="linea-divisora-index">
-                <section>
-
-                    <div>
-                        <article>
-                            <div>
-                                <img src="img/rdp.jpeg" width="200" height="200" alt="rio-de-la-plata">
-                                <p>maria publico esto </p>
-                            </div>
-                            <div>
-                                <img src="img/persona 1.jpeg" width="200" height="200" alt="una-persona">
-                                <p>juan publico esto </p>
-                            </div>
-                        </article>
-
-
-
-                    </div>
-                </section>
-
-                <footer>
-                    <div>
-                        <section>
-                            <p>seguime en ig :D</p>
-                            <a href="https://www.instagram.com/matii_sabandija/" target="_blank">toca aca pibe</a>
-                        </section>
-                    </div>
-                </footer>
-            </main>
-        </div>
-
-        <div class="columna-derecha">
-            <section class="home-completo">mensajes</section>
-
-            <div>
-                <label class="chats" for="opciones-index">Chats</label>
-                <select name="" id="opciones-index">
-                    <option value="">maria</option>
-                    <option value="">juan</option>
-                    <option value="">carla</option>
-            </div>
-        </div>
-    </div>
+                <img src="https://via.placeholder.com/600x400" alt="Publicación" class="post-image">
+                <div class="post-actions">
+                    <button>❤️ Me gusta</button>
+                    <button>💬 Comentar</button>
+                </div>
+                <p class="post-description">Descripción de la publicación aquí.</p>
+            </article>
+            
+        </section>
+        <aside class="sidebar">
+            <h2>Sugerencias para ti</h2>
+            <ul>
+                <li>
+                    <img src="https://via.placeholder.com/40" alt="Usuario" class="avatar">
+                    <span>Usuario2</span>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/40" alt="Usuario" class="avatar">
+                    <span>Usuario3</span>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/40" alt="Usuario" class="avatar">
+                    <span>Usuario4</span>
+                </li>
+            </ul>
+        </aside>
+    </main>
+    
 </body>
-
 </html>
